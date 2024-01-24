@@ -1,0 +1,28 @@
+<header>
+    <p class="text-2xl">Bienvenido a {{ titulo }}</p>
+</header>
+
+<body>
+    
+<div>
+    <p>Introduce aquí tus preferencias musicales:</p>
+    <div>
+        <button (click)="responseReceived = true; requestData()" class="rounded-md bg-indigo-400 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Send</button>
+    </div>
+
+    @if (responseReceived) {
+
+        <div>
+            <div>
+                <h2>Recomendación obtenida:</h2>
+            </div>
+            <div>
+                <h2>Recomendación obtenida:</h2>
+            </div>
+
+    
+        </div>
+    }
+</div>
+
+</body>
