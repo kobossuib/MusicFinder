@@ -11,5 +11,5 @@ import { FormComponent } from './form/form.component';
   styles: 'styles.css'
 })
 export class AppComponent {
-  title = 'angular-17-app';
+  title = 'MusicFinder';
 }
